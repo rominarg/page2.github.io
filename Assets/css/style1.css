@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+ }
+
+
+.banner-img {
+    background: url('../img/design1_image1.jpg');
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #000000;
+        font-size: 250%;
+}
+
+.header{
+    color: #e9bd15;
+    font-size: 350px;
+    text-transform: lowercase;
+}
+
+.title{
+    display: block;
+    color: #e9bd15;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo{
+    transform: translate(950px,-80px);
+}
+
+.menu {
+    display: block;
+    margin: 40px;
+    transform: translate(30px,-55px);
+    font-weight: bold;  
+}
+
+.active {
+    color:black;
+    text-decoration: none;
+}
+
+.h4_subtitle {
+    font-style: oblique;
+    font-weight: bold;  
+    transform: translate(350px,-320px);
+    font-size: 20px;
+    list-style: none;
+    padding: 8px;
+}
+
+.parrafo {
+    transform: translate(350px,-320px);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h6_subtitle{
+    width: 700px;
+    transform: translate(350px,-320px);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}

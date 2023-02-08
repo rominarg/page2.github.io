@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+ }
+
+.banner-img {
+    background: url('../img/design1_image1.jpg');
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #000000;
+        font-size: 250%;
+}
+h1{
+    transform: translate(220px,-250px);
+}
+
+.header{
+    color: #e9bd15;
+    font-size: 350px;
+    text-transform: lowercase;
+}
+
+.title{
+    display: block;
+    color: #e9bd15;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo{
+    transform: translate(100px,40px);
+}
+
+.menu {
+    transform: translate(100px,-100px);
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4273C7;
+    color: white;
+    margin: 15px;
+    padding: 10px;  
+}
+.active {
+    color:##6FAD46;
+    text-decoration: none;
+}
+
+.h4_subtitle {
+    font-style: oblique;
+    font-weight: bold;  
+    transform: translate(320px,-280px);
+    font-size: 20px;
+    list-style: none;
+    padding: 8px;
+}
+
+.parrafo {
+    transform: translate(320px,-220px);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h6_subtitle{
+    width: 700px;
+    transform: translate(350px,-275px);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
